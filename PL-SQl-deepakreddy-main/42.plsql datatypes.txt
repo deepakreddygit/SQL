@@ -1,0 +1,45 @@
+PL/SQL Scalar Data Types 
+
+
+1	
+Numeric
+
+Numeric values on which arithmetic operations are performed.
+
+2	
+Character
+
+Alphanumeric values that represent single characters or strings of characters.
+
+3	
+Boolean
+
+Logical values on which logical operations are performed.
+
+4	
+Datetime
+
+Dates and times.
+
+
+--example
+DECLARE 
+   num1 INTEGER; 
+   num2 REAL; 
+   num3 DOUBLE PRECISION; 
+BEGIN 
+   null; 
+END; 
+
+
+--example
+DECLARE 
+   SUBTYPE name IS char(20); 
+   SUBTYPE message IS varchar2(100); 
+   salutation name; 
+   greetings message; 
+BEGIN 
+   salutation := 'Reader '; 
+   greetings := 'Welcome to the World of PL/SQL'; 
+   dbms_output.put_line('Hello ' || salutation || greetings); 
+END; 

@@ -1,0 +1,22 @@
+A VARCHAR2 or CHAR value can be implicitly converted to NUMBER or DATE type value by Oracle. Similarly, a NUMBER or DATA type
+ value can be automatically converted to character data by Oracle server. Note that the impicit interconversion happens only when the 
+character represents the a valid number or date type value respectively.
+For example, examine the below SELECT queries. Both the queries will give the same result because Oracle internally treats 15000 and '15000' as same.
+
+
+SELECT employee_id,first_name,salary
+FROM employees
+WHERE salary > 15000;
+
+
+For number to character conversion, nls parameters can be used to specify decimal characters, group separator, local currency model, or 
+international currency model. It is an optional specification - if not available, session level nls settings will be used. 
+For date to character conversion, the nls parameter can be used to specify the day and month names, as applicable.
+
+
+
+SELECT ename,
+       TO_CHAR (hiredate, 'MONTH DD, YYYY') HIREDATE,
+	   TO_CHAR (sal, '$99999.99') Sal
+FROM emp
+WHERE rownum < 5;

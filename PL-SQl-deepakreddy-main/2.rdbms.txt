@@ -1,0 +1,17 @@
+RDBMS stands for relational database management system—a software system that enables you to define, 
+create, maintain, and control access to relational databases. It is the underlying part of the interface layer that helps you store and work with data.
+
+ address the definition of a relational database to see what makes it so special.
+ A relational database is the most popular type of database that stores and provides access to data points that are related to one another. 
+In relational databases, data is arranged and stored in tables consisting of columns and rows. And of course, you have the intuitive and flexible 
+Structured Query Language to manipulate databases.
+
+
+Data in relational databases is stored in a well-structured and easily understandable table format.
+ Meanwhile, versatile relations between tables and the use of SQL to write queries of different complexity contribute to the flexibility of data management.
+
+Relational databases provide multi-user access along with privileges that allow database administrators to have complete control over activities in databases and 
+grant different levels of access to other users.
+
+ACID (which comprises Atomicity, Consistency, Isolation, Durability) is a well-known set of properties of database transactions meant to guarantee data validity despite errors, 
+failures, and other possible mishaps. Relational databases deliver full ACID support.

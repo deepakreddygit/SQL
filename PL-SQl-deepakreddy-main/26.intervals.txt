@@ -1,0 +1,10 @@
+MySQL interval values are used mainly for date and time calculations
+
+INTERVAL expr unit
+
+INTERVAL 1 DAY
+
+interval 1 day
+
+date + INTERVAL expr unit
+date - INTERVAL expr unit

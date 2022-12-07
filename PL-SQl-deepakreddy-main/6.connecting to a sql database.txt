@@ -1,0 +1,34 @@
+To connect to SQL Server database create new documentation by clicking Add documentation and choosing Database connection.
+
+Connection to SQL Server
+
+On the connection screen choose SQL Server as DBMS.
+
+Provide database connection details:
+
+Host - provide a host name or address where a database is on. E.g. server17, server17.ourdomain.com or 192.168.0.37.
+Authentication - choose authentication method Windows Authentication or SQL Server Authentication (see more details below)
+User and password - if you chose SQL Server Authentication provide your username and password
+Database - type in database name or click [...] and choose it from the list.
+Connection to SQL Server
+
+Here is a comparison with connection details in SQL Server Management Studio.
+
+Connection to SQL Server
+
+Connection to SQL Server
+
+Authentication methods
+You can log in to SQL Server using two methods:
+
+Windows Authentication where your Windows credentials will be used or
+
+SQL Server Authentication where you will have to provide username and password.
+
+Saving password
+You can save password for later connections by checking Save password option. Password are saved in the repository database.
+
+Importing schema
+When connection was successful Dataedo will read objects and show a list of objects found. You can choose which objects to import.
+ You can also use advanced filter to narrow down list of objects.
+

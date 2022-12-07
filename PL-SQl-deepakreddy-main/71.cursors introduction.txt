@@ -1,0 +1,21 @@
+A cursor is a pointer to this context area. PL/SQL controls the context area through a cursor. A cursor holds the rows (one or more) returned by a SQL statement. The set of rows the cursor holds is referred to as the active set.
+
+You can name a cursor so that it could be referred to in a program to fetch and process the rows returned by the SQL statement, one at a time. There are two types of cursors −
+
+Implicit cursors
+Explicit cursors
+
+
+Implicit Cursors:
+Implicit cursors are automatically created by Oracle whenever an SQL statement is executed, when there is no explicit cursor for the statement. Programmers cannot control the implicit cursors and the information in it.
+
+Whenever a DML statement (INSERT, UPDATE and DELETE) is issued, an implicit cursor is associated with this statement. For INSERT operations, the cursor holds the data that needs to be inserted. For UPDATE and DELETE operations, the cursor identifies the rows that would be affected.
+
+
+
+Explicit cursors:
+An explicit cursor is a named pointer to a private SQL area that stores information for processing a specific query or DML statement—typically, one that returns or affects multiple rows. You can use an explicit cursor to retrieve the rows of a result set one at a time.
+
+Before using an explicit cursor, you must declare and define it. You can either declare it first (with cursor_declaration) and then define it later in the same block, subprogram, or package (with cursor_definition) or declare and define it at the same time (with cursor_definition).
+
+An explicit cursor declaration and definition are also called a cursor specification and cursor body, respectively.

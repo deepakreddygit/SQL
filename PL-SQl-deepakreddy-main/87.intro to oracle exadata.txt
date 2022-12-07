@@ -1,0 +1,22 @@
+The Oracle Exadata Database Machine is the World’s most secure database machine. It is engineered to be the top-performing and best available platform 
+for running the Oracle Database. This simple and fast to implement machine protects and powers your most important database and is the perfect foundation for 
+a consolidated database cloud
+
+ When To Use Exadata:
+
+Oracle Exadata is best for customers who consider data warehousing and consolidation of the database. 
+Enterprises targeting faster growth and striving to become more responsive to market fluctuations and client requirements must implement pioneering technologies
+ like Oracle Exadata.
+
+Component of Exadata Storage Server:
+
+It’s another storage device, which has CUP, Memory, Disks, network cards, an Operating System Oracle Linux and Most important past Exadata Storage Server Software.
+ There are mainly three services which run on cell server for the processing which are:
+CellSRV (Cell Service): This is the primary component of Exadata Cell which provides all Exadata Storage services. 
+This process communicates with the Database server for providing database blocks
+
+MS (Management Server): MS service provides an interface to DBA for communicating or Managing Cell Server.
+ CellCLI is the Command Line tool that Exadata DBA used for performing Exadata Administration services.
+
+RS (Restart Server): This service is to make sure the functioning of the Exadata Server. 
+RS monitors CellSRV and MS for liveliness and restarts them whenever required.

@@ -1,0 +1,3 @@
+When an exception occurs, PL/SQL looks for an exception handler in the current block e.g., anonymous block, procedure, or function of the exception. 
+If it does not find a match, PL/SQL propagates the exception to the enclosing block of the current block.PL/SQL then attempts to handle the exception by raising it once more in the enclosing block. This process continues in each successive enclosing block until there is no remaining block in which to raise the exception. 
+If there is no exception handler in all blocks, PL/SQL returns an unhandled exception to the application environment that executed the outermost PL/SQL block.

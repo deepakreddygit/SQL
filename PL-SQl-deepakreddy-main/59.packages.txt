@@ -1,0 +1,7 @@
+Introducing to PL/SQL Package
+PL/SQL package is a group of related functions, procedures, types, cursors, etc. PL/SQL package is like a library once written stored in the Oracle database and can be used by many applications.
+
+A PL/SQL package has two parts: package specification and package body.
+
+A package specification is the public interface of your applications. The public means the stored function, procedures, types, etc., are accessible from other applications.
+A package body contains the code that implements the package specification.

@@ -1,0 +1,18 @@
+1) Star Schema:
+
+        This is the simplest and most effective schema in a data warehouse. A fact table in the center surrounded by multiple dimension tables resembles
+a star in the Star Schema model.The fact table maintains one-to-many relations with all the dimension tables. 
+Every row in a fact table is associated with its dimension table rows with a foreign key reference.
+Due to the above reason, navigation among the tables in this model is easy for querying aggregated data.
+An end-user can easily understand this structure. Hence all the Business Intelligence (BI) tools greatly support the Star schema model.
+While designing star schemas the dimension tables are purposefully de-normalized. They are wide with many attributes to store the contextual data 
+for better analysis and reporting.
+
+
+2) SnowFlake Schema:
+
+       Star schema acts as an input to design a SnowFlake schema. Snow flaking is a process that completely normalizes all the dimension tables from a star schema.
+The arrangement of a fact table in the center surrounded by multiple hierarchies of dimension tables looks like a SnowFlake in the SnowFlake schema model. 
+Every fact table row is associated with its dimension table rows with a foreign key reference.While designing SnowFlake schemas the dimension tables are purposefully
+ normalized. Foreign keys will be added to each level of the dimension tables to link to its parent attribute. The complexity of the SnowFlake schema is directly proportional
+ to the hierarchy levels of the dimension tables.

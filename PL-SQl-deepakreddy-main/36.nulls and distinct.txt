@@ -1,0 +1,17 @@
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+--example1
+SELECT DISTINCT Country FROM Customers;
+
+--example2
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
+--example3
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;
+
+--example4
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;

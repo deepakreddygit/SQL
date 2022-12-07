@@ -1,0 +1,41 @@
+CHARACTER :
+
+The CHARACTER data type accepts character strings, including Unicode, of a fixed length. 
+The length of the character string should be specified in the data type declaration; 
+for example, CHARACTER(n) where n represents the desired length of the character string.
+ If no length is specified during the declaration, the default length is 1.
+
+VARCHAR :
+
+
+The VARCHAR data type accepts character strings, including Unicode, of a variable length is up to the maximum length specified in the data type declaration.
+
+A VARCHAR declaration must include a positive integer in parentheses to define the maximum allowable character string length. 
+For example, VARCHAR(n) can accept any length of character string up to n characters in length. The length parameter may take any value from 1 to the current table page size.
+ Attempting to assign a value containing more characters than the defined maximum length results in the truncation of the character string to the defined length. 
+If any of the truncated characters are not blank, an error is raised.
+
+
+
+BOOLEAN:
+
+
+The BOOLEAN data type supports the storage of two values: TRUE or FALSE. No parameters are required when declaring a BOOLEAN data type.
+
+Use the case insensitive keywords TRUE or FALSE to assign a value to a BOOLEAN data type. Comparisons using the BOOLEAN data type should also use these keywords.
+ If you attempt to assign any other value to a BOOLEAN data type, an error is raised.
+
+
+SMALLINT:
+
+
+The SMALLINT data type accepts numeric values with an implied scale of zero. It stores any integer value between the range 2^ -15 and 2^15 -1.
+ Attempting to assign values outside this range causes an error.
+
+If you assign a numeric value with a precision and scale to a SMALLINT data type, the scale portion truncates, without rounding.
+
+
+NUMERIC:
+
+
+PointBase treats the NUMERIC data type in exactly the same way as the DECIMAL data type.

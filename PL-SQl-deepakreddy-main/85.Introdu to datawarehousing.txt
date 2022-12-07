@@ -1,0 +1,16 @@
+A data warehouse:
+
+       It is a central data repository used for reporting and data analysis.
+ It can connect to and integrate multiple data sources to provide a common area to generate business insights.
+
+A data warehouse (often abbreviated as DW or DWH) is a system used for reporting and data analysis from various sources to provide business insights.
+ It operates as a central repository where information arrives from various sources.
+Once in the data warehouse, the data is ingested, transformed, processed, and made accessible for use in decision-making.
+The three main types of data warehouses are enterprise data warehouse (EDW), operational data store (ODS), and data mart.
+
+
+History of Data Warehouses:
+
+     The concept of data warehouses first came into use in the 1980s when IBM researchers Paul Murphy and Barry Devlin developed the
+ business data warehouse. American computer scientist Bill Inmon is considered the “father” of the data warehouse due to his authorship of several works, 
+such as the Corporate Information Factory and other topics on the building, usage, and maintenance of the data warehouse.

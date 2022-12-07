@@ -1,0 +1,38 @@
+The first commercial RDBMS was built using PDP-11 assembler language. Although they created a commercial version of RDBMS in 1977, 
+it wasn't available for sale until 1979 with the launch of Oracle version 2. The company decided against starting with version 1
+ because they were afraid that the term "version 1" might be viewed negatively in the marketplace.  USA Air Force and then CIA were
+ the first customers to use Oracle 2.
+
+In 1982 there was another change of the company's name, from RSI to Oracle Systems Corporation so as to match its popular database name.
+
+1983 - Oracle release 3
+
+The Oracle version 3 was developed in 1983. This version was assembled using C programming language and could run in mainframes, 
+minicomputers, and PCs - or any hardware with a C compiler. It supported the execution of SQL statements and transactions. 
+This version also included new options of pre-join data to increase Oracle optimization.
+
+1984 - Oracle release 4
+
+Despite the advances introduced in version 3, demand was so great that Oracle was compelled to improve the software even further with the release of version 4 in 1984.
+ Oracle version 4 included support for reading consistency, which made it much faster than any previous version.  Oracle version 4 also brought us the introduction of the 
+export/import utilities and the report writer, which allows one the ability to create a report based on a query.
+
+1985 - Oracle release 5
+
+With the introduction of version 5 in 1985, Oracle addressed the increasing use of the internet in business computing. 
+ This version was equipped with the capability to connect clients? software through a network to a database server.  
+The Clustering Technology was introduced in this version as well and Oracle became the pioneer using this new concept - w
+hich would later be known as Oracle Real Application Cluster in version 9i.  Oracle version 5 added some new security features such as auditing,
+ which would help determine who and when someone accessed the database.
+
+Oracle version 5.1 was launched in 1986 and allowed for supporting distributed queries. Later that same year Oracle released SQL*Plus, 
+a tool that offers ad hoc data access and report writing.  1986 also brought the release of SQL*Forms, an application generator and runtime system with facilities for simple application deployment.
+
+1988 - Oracle release 6
+
+The PL/SQL language came with Oracle version 6 in 1988.  This version provided a host of new features including the support of OLTP high-speed systems, hot backup capability and row level locking - 
+which locks only the row or rows being used during a writing operation, rather than locking an entire table.  Prior to the hot backup feature, database administrators were required to shutdown 
+the database to back it up.  Once the hot backup feature was introduced, DBA's could do a backup while the database was still online.
+
+Oracle Parallel Server was introduced in Oracle version 6.2 and was used with DEC VAX Cluster. This new feature provided high availability because more than one node (server) could access the data in database.
+ With the increased availability this feature also accelerated the performance of the system that was sharing users? connections between nodes.

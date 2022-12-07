@@ -1,0 +1,15 @@
+Logical vs. Physical Storage Structures
+Data independence is a primary characteristic of a relational database system such as Oracle. An Oracle database's physical structure is 
+independent of and hidden from an end user's logical view of the data. The benefit of data independence is that typical end users and application 
+developers can easily access data in logical structures such as tables by using simple SQL commands, without having to consider the complexities of 
+the data's physical storage. For example, when you execute a query that targets a table, you don't have to consider where the table's data is stored on disk, 
+because Oracle transparently maps columns and rows of the table's data to files and physical bytes on disk
+
+
+
+An Oracle database is made up of physical and logical structures. Physical structures are those that can be seen and operated on from the operating system, 
+such as the physical files that store data on disk.
+
+Logical structures are created and recognized by the Oracle database server and are not known to the operating system. 
+The primary logical structure in a database, a tablespace, contains physical files. The applications developer or end user may be aware of the logical structure, 
+but is not usually aware of this physical structure. The DBA must understand the relationship between the physical and logical structures of a database.

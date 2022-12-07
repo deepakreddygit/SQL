@@ -1,0 +1,21 @@
+Updatable Cursors
+After defining a cursor using declare cursor, the SAP ASE server determines whether the cursor is updatable or read-only.
+
+If:
+
+A cursor is updatable – you can update or delete rows through the cursor; that is, use cursor_name to do a position update or delete.
+
+A cursor is read-only – you cannot use cursor_name to perform a position update or delete.
+
+Use the for update or for read only clause to explicitly define a cursor as updatable or read-only. You cannot define an updatable cursor if its select_statement contains one of the following constructs:
+distinct option
+
+group by clause
+
+Aggregate function
+
+Subquery
+
+union operator
+
+at isolation read uncommitted clause
